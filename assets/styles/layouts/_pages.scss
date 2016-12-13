@@ -1,0 +1,53 @@
+body.home {}
+
+.container {
+    text-align: center;
+}
+
+nav {
+    ul {
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        background-color: darkcyan;
+    }
+    li {
+        display: inline-block;
+    }
+    a {
+        display: block;
+        padding: 10px 18px;
+        text-decoration: overline;
+        font-size: 20px;
+        font-family: sans-serif;
+        background-color: beige;
+    }
+}
+
+.button {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+    width: 100px;
+    text-align: center;
+    font-family: 'Gloria Hallelujah', cursive;
+    padding: 20px;
+    font-size: 25px;
+}
+
+.button:hover {
+    cursor: alias;
+    background-color: darkslategrey;
+}
+
+.font {
+    font-family: 'Molle', cursive;
+}
+
+.playerImage1 {
+    height: 500px;
+    width: 250px;
+}

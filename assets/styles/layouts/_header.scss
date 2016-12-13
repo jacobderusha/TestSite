@@ -1,0 +1,38 @@
+$brand-color: rgb(20, 160, 200);
+$font-size-xlarge:80px;
+$font-size-large:50px;
+$font-size-medium:40px;
+$font-size-small:20px;
+h1 {
+    font-family: "bungee";
+    font-size: 50px;
+}
+
+h2 {
+    font-family: "bungee";
+    font-size: $font-size-medium;
+    background-color: dimgray;
+}
+
+h3 {
+    font-family: 'Molle', cursive;
+    font-size: $font-size-small;
+}
+
+body {
+    background-color: azure;
+}
+
+
+
+#divWrap div {
+    opacity: 0;
+}
+
+divWrap .playerImage1 {
+    opacity: 1;
+}
+
+div.title {
+    align-content: center;
+}
