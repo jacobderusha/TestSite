@@ -38,7 +38,17 @@
                 // JavaScript to be fired on the home page
             },
             'whos_better': {
-                init:
+                init: function clicked() {
+                    if (document.getElementById("lm").checked === true) {
+                        alert("You have selected Messi. Great Choice!");
+                    } else if (document.getElementById("cr").checked === true) {
+                        alert("OOPS!!! It seems you have figgited and clicked the wrong button. That's OK, we all make mistakes sometimes.");
+                    } else if (document.getElementById("db").checked === true) {
+                        alert("Uh Oh. Did you forget your glasses today? You didn't check Messi. Woops! That's OK we all mess up sometimes.");
+                    } else if (document.getElementById("ney").checked === true) {
+                        alert("I know I know it can be confusing when they are on the same team sometimes but Neymar is different than Messi. Neymar is not Messi though I am sorry. Don't worry though. You are forgiven for your mistake.");
+                    }
+                }
             };
 
             // The routing fires all common scripts, followed by the page specific scripts.
